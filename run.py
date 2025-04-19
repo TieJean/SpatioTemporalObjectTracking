@@ -108,6 +108,7 @@ def run(data_dir, cfg = {}, baselines=False, ckpt_dir=None, read_ckpt=False, wri
                            time_encoder=time_encoding, 
                            batch_size=cfg['batch_size'],
                            max_routines = (train_days, None))
+    import pdb; pdb.set_trace()
     
   
     group = os.path.basename(data_dir)

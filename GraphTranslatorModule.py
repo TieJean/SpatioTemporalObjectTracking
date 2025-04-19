@@ -8,7 +8,7 @@ import torch
 from torch.nn import functional as F
 from torch import nn
 from torch.optim import Adam
-from pytorch_lightning.core.lightning import LightningModule
+from pytorch_lightning import LightningModule
 
 
 def get_masks(gt_tensor, output_tensor, input_tensor):
